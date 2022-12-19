@@ -19,7 +19,7 @@ database.query(query,[param.username,param.email,hash],(err,result)=>{
 
 });
 
-router.get('/login', (req, res) => {
+router.post('/login', (req, res) => {
 var param = req.body;
 var query = "select * from users where email = ?";
 
