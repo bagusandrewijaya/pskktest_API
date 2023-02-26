@@ -3,10 +3,10 @@ var connect = mysql.createConnection(
     {
     
        
-        host: "by3qzj9jgslgwrukaiin-mysql.services.clever-cloud.com",
-        database: "by3qzj9jgslgwrukaiin",
-        user: "uioiyhqcsbdr9vh3",
-        password: "vf8qolgVfWL0WQSlvOfp",
+        host: "localhost",
+        database: "sampleapi",
+        user: "root",
+        password: "",
         port: 3306
        
         
