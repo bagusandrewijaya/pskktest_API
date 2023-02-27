@@ -1,21 +1,21 @@
 const mysql = require('mysql2');
 var connect = mysql.createConnection(
     {
-    
-       
-        host: "localhost",
-        database: "sampleapi",
+
+
+        host: "containers-us-west-194.railway.app",
+        database: "railway",
         user: "root",
-        password: "",
-        port: 3306
-       
-        
+        password: "ESXd85YpfL7zGiSX2ldS",
+        port: 7797
+
+
     }
 );
-connect.connect((err)=>{
+connect.connect((err) => {
     if (!err) {
         console.log("Database connected");
-    }else{
+    } else {
         console.log(err);
     }
 });
